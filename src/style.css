@@ -1,0 +1,34 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #000814;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+il {
+  font-size: 25px;
+  margin: 30px;
+}
+
+.home-div,
+.contact-div,
+.menu-div {
+  display: none;
+}
+
+.home-div.selected,
+.contact-div.selected,
+.menu-div.selected {
+  display: block;
+}
