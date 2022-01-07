@@ -1,8 +1,13 @@
+import burguer2Image from "./assets/img/burguer2.png";
+import burguer3Image from "./assets/img/burguer3.png";
+import burguer4Image from "./assets/img/burguer4.png";
+import burguer5Image from "./assets/img/burguer5.png";
+
 function menuLoader() {
   const content = document.getElementById("content");
   const menuDiv = document.createElement("div");
   menuDiv.className = "menu-div";
-  const title = document.createElement("h1");
+  const title = document.createElement("h2");
   const menuContainer = document.createElement("div");
   menuContainer.className = "menu-container";
   const burguer2Container = document.createElement("div");
@@ -31,13 +36,13 @@ function menuLoader() {
   const mainText = document.createElement("p");
 
   title.textContent = "OUR MENU!";
-  image2.src = "/src/assets/img/burguer2.png";
+  image2.src = burguer2Image;
   image2.alt = "Hamburguer";
-  image3.src = "/src/assets/img/burguer3.png";
+  image3.src = burguer3Image;
   image3.alt = "Hamburguer";
-  image4.src = "/src/assets/img/burguer4.png";
+  image4.src = burguer4Image;
   image4.alt = "Hamburguer";
-  image5.src = "/src/assets/img/burguer5.png";
+  image5.src = burguer5Image;
   image5.alt = "Hamburguer";
   mainText.textContent = "WE HAVE DIFFERENT OPTIONS FOR OUR COSTUMERS! TRY IT!";
   burguer2Text.textContent =

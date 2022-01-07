@@ -1,3 +1,5 @@
+import burguer1Image from "./assets/img/burguer1.png";
+
 function pageLoader() {
   const content = document.getElementById("content");
   const homeDiv = document.createElement("div");
@@ -7,7 +9,7 @@ function pageLoader() {
   const mainText = document.createElement("p");
 
   title.textContent = "HERE YOU CAN FIND THE BEST BURGUERS!";
-  principalImage.src = "/src/assets/img/burguer1.png";
+  principalImage.src = burguer1Image;
   principalImage.alt = "Hamburguer";
   mainText.textContent =
     "Find the best burgers in the world that you can have: tasty, awesome, cheap and fast!";

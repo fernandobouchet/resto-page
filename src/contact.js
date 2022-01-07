@@ -1,3 +1,5 @@
+import mapImage from "./assets/img/map.png";
+
 function contactLoader() {
   const content = document.getElementById("content");
   const contactDiv = document.createElement("div");
@@ -10,7 +12,7 @@ function contactLoader() {
   title.textContent = "CONTACT US!";
   telephone.textContent = "Tel: 5555-5555";
   direction.textContent = "Dir: Fake Street 123, CA.";
-  principalImage.src = "/src/assets/img/map.png";
+  principalImage.src = mapImage;
   principalImage.alt = "map";
 
   contactDiv.appendChild(title);
