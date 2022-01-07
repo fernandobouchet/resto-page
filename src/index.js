@@ -7,7 +7,7 @@ function createTitle() {
   const body = document.body;
 
   const title = document.createElement("h1");
-  title.textContent = "Tasty Burguers!";
+  title.textContent = "BEST BURGUERS";
   body.prepend(title);
 }
 
