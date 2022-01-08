@@ -3,7 +3,7 @@ import burguer1Image from "./assets/img/burguer1.png";
 function pageLoader() {
   const content = document.getElementById("content");
   const homeDiv = document.createElement("div");
-  homeDiv.classList = "home-div selected";
+  homeDiv.classList = "page-div home-div selected";
   const title = document.createElement("h2");
   const principalImage = document.createElement("img");
   const mainText = document.createElement("p");

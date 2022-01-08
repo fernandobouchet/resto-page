@@ -6,7 +6,7 @@ import burguer5Image from "./assets/img/burguer5.png";
 function menuLoader() {
   const content = document.getElementById("content");
   const menuDiv = document.createElement("div");
-  menuDiv.className = "menu-div";
+  menuDiv.classList = "page-div menu-div";
   const title = document.createElement("h2");
   const menuContainer = document.createElement("div");
   menuContainer.className = "menu-container";

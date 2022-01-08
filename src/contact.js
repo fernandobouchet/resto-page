@@ -3,7 +3,7 @@ import mapImage from "./assets/img/map.png";
 function contactLoader() {
   const content = document.getElementById("content");
   const contactDiv = document.createElement("div");
-  contactDiv.className = "contact-div";
+  contactDiv.classList = "page-div contact-div";
   const title = document.createElement("h2");
   const principalImage = document.createElement("img");
   const telephone = document.createElement("p");
